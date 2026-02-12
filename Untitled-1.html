@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kotla Vishnuvardhan Reddy | Portfolio</title>
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+
+body{
+  font-family:'Poppins', sans-serif;
+  background:#0b1026;
+  color:#e8eaff;
+}
+
+nav{
+  position:fixed;
+  top:0;
+  width:100%;
+  background:rgba(10,15,45,0.9);
+  backdrop-filter: blur(10px);
+  padding:15px 0;
+  text-align:center;
+  z-index:1000;
+}
+
+nav a{
+  margin:0 12px;
+  color:#ffb6ff;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.hero{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding-top:80px;
+  background:linear-gradient(135deg,#1e3a8a,#2563eb,#9333ea);
+}
+
+.profile-pic{
+  width:180px;
+  height:180px;
+  border-radius:50%;
+  border:5px solid #ffb6ff;
+  object-fit:cover;
+  margin-bottom:20px;
+}
+
+section{padding:100px 12%;}
+
+h2{
+  text-align:center;
+  margin-bottom:40px;
+  color:#ffb6ff;
+}
+
+.card{
+  background:rgba(255,255,255,0.08);
+  padding:25px;
+  border-radius:15px;
+  margin-bottom:20px;
+  line-height:1.6;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:25px;
+}
+
+.skill{
+  display:inline-block;
+  margin:6px;
+  padding:8px 14px;
+  border-radius:20px;
+  background:linear-gradient(135deg,#7df9ff,#ffb6ff);
+  color:#000;
+  font-weight:600;
+}
+
+footer{
+  background:#05081f;
+  text-align:center;
+  padding:30px;
+}
+
+#resumeContent{display:none;}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+<a href="#home"><i class="fa fa-house"></i> Home</a>
+<a href="#about"><i class="fa fa-user"></i> About</a>
+<a href="#skills"><i class="fa fa-code"></i> Skills</a>
+<a href="#projects"><i class="fa fa-diagram-project"></i> Projects</a>
+<a href="#training"><i class="fa fa-graduation-cap"></i> Training</a>
+<a href="#certificates"><i class="fa fa-certificate"></i> Certificates</a>
+<a href="#resume"><i class="fa fa-file-lines"></i> Resume</a>
+<a href="#contact"><i class="fa fa-envelope"></i> Contact</a>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="hero">
+<div>
+<img src="https://github.com/Saitharun8080/vishnu/blob/main/WhatsApp%20Image%202026-01-31%20at%2012.48.34.jpeg?raw=true"
+class="profile-pic">
+<h1>Kotla Vishnuvardhan Reddy</h1>
+<p>Aspiring Cloud Engineer</p>
+<p>Turning effort into skill, step by step</p>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+<h2><i class="fa fa-user"></i> About Me</h2>
+<div class="card">
+<p>
+I am an aspiring Cloud Engineer with strong foundations in computer science and cloud technologies.
+I am passionate about building scalable systems and understanding modern infrastructure.
+I focus on disciplined learning, hands-on practice, and continuous improvement.
+</p>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+<h2><i class="fa fa-code"></i> Skills</h2>
+<div class="card">
+<span class="skill">C</span>
+<span class="skill">C++</span>
+<span class="skill">JavaScript</span>
+<span class="skill">Python</span>
+<span class="skill"><i class="fa-brands fa-aws"></i> AWS Services</span>
+<span class="skill">Docker</span>
+<span class="skill">Git</span>
+<span class="skill">GitHub</span>
+<span class="skill">MySQL</span>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+<h2><i class="fa fa-diagram-project"></i> Projects</h2>
+<div class="grid">
+
+<div class="card">
+<h3>Learning Management System (LMS)</h3>
+<p>
+Developed a cloud-based LMS deployed using AWS EC2 and Amazon S3.
+Focused on scalable architecture and secure storage.
+Enhanced real-world deployment and infrastructure knowledge.
+</p>
+</div>
+
+<div class="card">
+<h3>Trivia Bot – Quiz Application</h3>
+<p>
+Built an interactive quiz application with real-time scoring.
+Designed logical program flow and user-friendly interface.
+Strengthened JavaScript and problem-solving skills.
+</p>
+<a href="https://github.com/codespaces?repository_id=1146490308" target="_blank">
+🔗 View Project
+</a>
+</div>
+
+</div>
+</section>
+
+<!-- TRAINING -->
+<section id="training">
+<h2><i class="fa fa-graduation-cap"></i> Training</h2>
+<div class="grid">
+
+<div class="card">
+<h3>Advanced Data Structures</h3>
+<p>
+Completed in-depth training on trees, graphs, hashing and optimization techniques.
+Focused on improving time and space complexity analysis.
+Strengthened structured thinking and efficient coding skills.
+</p>
+</div>
+
+<div class="card">
+<h3>AWS Academy – Cloud Architecting</h3>
+<p>
+Underwent structured training on AWS EC2, S3, IAM and architecture design.
+Gained hands-on experience deploying scalable cloud applications.
+Improved understanding of cloud security and infrastructure.
+</p>
+</div>
+
+<div class="card">
+<h3>Python towards ML/AI</h3>
+<p>
+Completed professional Python training covering core programming concepts.
+Introduced to machine learning fundamentals and data handling.
+Applied knowledge through practical coding exercises.
+</p>
+</div>
+
+</div>
+</section>
+
+<!-- CERTIFICATES -->
+<section id="certificates">
+<h2><i class="fa fa-certificate"></i> Certificates</h2>
+<div class="grid">
+
+<div class="card">
+<strong>AWS Academy Graduate – Cloud Architecting</strong><br><br>
+<a href="https://www.credly.com/go/0KnjxX5D" target="_blank">
+🔗 View Digital Badge
+</a>
+</div>
+
+<div class="card">
+<strong>Responsive Web Design – freeCodeCamp</strong><br><br>
+<a href="https://freecodecamp.org/certification/fccfe7f0bce-b3a2-4c82-bbf8-17c4e160e67a/responsive-web-design"
+target="_blank">
+🔗 View Certificate
+</a>
+</div>
+
+<div class="card">
+<strong>Python towards ML/AI</strong><br><br>
+<p>
+Certified completion of structured Python training with ML fundamentals.
+</p>
+</div>
+
+</div>
+</section>
+
+<!-- RESUME -->
+<section id="resume">
+<h2 id="resumeTitle" style="cursor:pointer;">
+<i class="fa fa-file-lines"></i> Resume ▼
+</h2>
+
+<div id="resumeContent">
+<div class="grid">
+
+<div class="card">
+<h3>Professional Summary</h3>
+<p>
+Motivated and disciplined cloud enthusiast with strong analytical skills.
+Focused on scalable systems and continuous technical growth.
+Committed to building reliable and efficient solutions.
+</p>
+</div>
+
+<div class="card">
+<h3>Technical Experience</h3>
+<p>
+Hands-on AWS deployment and Docker containerization experience.
+Proficient in Git and GitHub collaboration workflows.
+Applied advanced data structures for performance optimization.
+</p>
+</div>
+
+<div class="card">
+<h3>Career Objective</h3>
+<p>
+Seeking opportunities in Cloud or Software Engineering roles.
+Aim to apply my technical knowledge in real-world scalable systems.
+Dedicated to long-term professional excellence.
+</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2><i class="fa fa-envelope"></i> Contact</h2>
+<div class="card">
+<p>Email: Vishnuvardhanreddykotla946@gmail.com</p>
+<p>LinkedIn: linkedin.com/in/vishnu-vardhan4</p>
+<p>GitHub: github.com/vishnu</p>
+<p>Phone: +91 93474 20438</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Kotla Vishnuvardhan Reddy</p>
+</footer>
+
+<script>
+document.getElementById("resumeTitle").addEventListener("click", function () {
+    const content = document.getElementById("resumeContent");
+    content.style.display =
+      content.style.display === "none" ? "block" : "none";
+});
+</script>
+
+</body>
+</html>
